@@ -17,7 +17,7 @@ header{
 main{
 	width: 60%;
 	margin: 0 auto;
-	outline: 1px solid red;
+	outline: 1px solid fff;
 	padding: 20px;
 }
 label{
@@ -27,7 +27,7 @@ label{
 
 }
 li{
-	outline: 1px solid green;
+	
 }
 input:checked+span{
 	text-decoration: line-through;
