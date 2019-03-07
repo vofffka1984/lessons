@@ -1,0 +1,40 @@
+*{
+box-sizing: border-box;
+}
+html{
+
+}
+body{
+	border: 10px solid #fff;
+	min-height: 100vh;
+	margin: 0;
+	background-color: #3c3f44;
+}
+header{
+	padding: 20px;
+	background-color: #4a4f4c;
+}
+main{
+	width: 60%;
+	margin: 0 auto;
+	outline: 1px solid red;
+	padding: 20px;
+}
+label{
+	padding: 10px;
+	outline: 1px solid red;
+	display:block;
+
+}
+li{
+	outline: 1px solid green;
+}
+input:checked+span{
+	text-decoration: line-through;
+
+}
+li:hover,
+li:focus{
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
